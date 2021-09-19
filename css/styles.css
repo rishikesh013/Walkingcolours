@@ -118,23 +118,23 @@ p{
 
 @keyframes img-change{
 	0%{
-		background: url(../images/38.jpg) no-repeat center;
+		background: url("../images/38.jpg") no-repeat center;
 		background-size: contain;
 	}
 	25%{
-		background: url(../images/34.jpg) no-repeat center;
+		background: url("../images/34.jpg") no-repeat center;
 		background-size: contain;
 	}
 	50%{
-		background: url(../images/26.jpg) no-repeat center;
+		background: url("../images/26.jpg") no-repeat center;
 		background-size: contain;
 	}
 	75%{
-		background: url(../images/17.jpg) no-repeat center;
+		background: url("../images/17.jpg") no-repeat center;
 		background-size: contain;
 	}
 	100%{
-		background: url(../images/38.jpg) no-repeat center;
+		background: url("../images/38.jpg") no-repeat center;
 		background-size: contain;
 	}
 }

@@ -17,8 +17,16 @@
 	padding:0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
-	font-family: Raleway, sans-serif;
-	/* font-family: 'Gluten', cursive; */
+	/*font-family: 'Gluten', cursive;*/
+}
+
+::-webkit-scrollbar{
+	background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #8C52FF;
+	border-radius:10px;
 }
 
 p{
@@ -40,11 +48,11 @@ p{
 .link{
 	color:#8C52FF;
 	letter-spacing: 2px;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .nav-item:hover, .link:hover{
-	transform: scale(1.2);
+	transform: scale(1.1);
 	color:#8C52FF;
 	font-weight: bold;
 	text-decoration: none;
@@ -56,7 +64,7 @@ p{
 }
 
 .nav-item{
-	padding:10px;
+	padding:10px 15px;
 }
 
 .custom-toggler{
@@ -82,10 +90,11 @@ p{
 	height:80px;
 }
 
-.section1-title, .section2-title, .section3-title, .section4-title, .section5-title,.section6-title{
+.section1-title, .section2-title, .section3-title, .section4-title, .section5-title{
 	font-size: 36px;
 	font-weight:bold;
-	text-transform: uppercase;
+	text-transform: capitalize;
+	font-family: 'Lobster Two', cursive;
 }
 
 .para{
@@ -181,8 +190,7 @@ p{
 /* SECTION - 2 */
 
 .section2-title{
-	 word-spacing: 10px;
-	/*letter-spacing: 8px; */
+	word-spacing: 10px;
 	text-align: center;
 	color: #3F51B5;
 }
@@ -206,6 +214,7 @@ p{
 }
 
 /* SECTION - 3 */ 
+
 .section3-title{
 	color:#8F6692;
 }
@@ -241,6 +250,11 @@ p{
 
 .item{
 	padding:20px;
+}
+
+.item:hover{
+	transform: scale(1.1);
+	transition: 0.2s ease-in;
 }
 
 /* SECTION - 4 */
@@ -311,7 +325,7 @@ p{
 
 .section5-content2{
 	background-color: #eec0c6;
-	background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+	background-image: linear-gradient(115deg, #eec0c6 0%, #7ee8fa 74%);
 	padding:15px;
 }
 
@@ -323,6 +337,7 @@ p{
 .section5-content2 p:nth-of-type(2){
 	color: #C26DBC;
 	font-size: 40px;
+	font-weight:bold;
 }
 
 .section5-btn2{
@@ -341,14 +356,25 @@ p{
 /* SECTION - 6 */
 
 .section6-title{
+	padding-top:20px;
 	color: #8C52FF;
 	font-size: 36px;
+	font-family: 'Quicksand';
+	font-weight: bold;
 }
+
+.section6{
+	background-color: #eec0c6;
+	background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+	margin:0 20px;
+}
+
 .section6-content{
-	padding: 20px;
+	padding:20px;
 	flex-direction: column;
 	color:  #8F6692;
 	font-size: 18px;
+
 }
 .section6-btn{
 	color:#FFEDF2;
@@ -365,7 +391,7 @@ p{
 }
 
 .section6-social-icons{
-	padding:40px;
+	padding:0 40px 40px 40px;
 }
 
 .section6-icon-list > a{
